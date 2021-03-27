@@ -188,8 +188,7 @@ module.exports = msgHandler = async(client, message) => {
                             mediaData, {
                                 crop: false,
                                 endTime: msg.duration >= 10 ?
-                                    "00:00:10.0" :
-                                    `00:00:0${msg.duration}.0`,
+                                    "00:00:10.0" : `00:00:0${msg.duration}.0`,
                             },
                             metadata
                         );
@@ -998,7 +997,7 @@ module.exports = msgHandler = async(client, message) => {
             case "!info":
                 client.sendLinkWithAutoPreview(
                     chatId,
-                    "https://github.com/IAmOZRules/whatsapp-bot-main",
+                    "https://github.com/IAmOZRules/Whatsapp-Bot",
                     info
                 );
                 break;
