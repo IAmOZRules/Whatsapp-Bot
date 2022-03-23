@@ -1,0 +1,6 @@
+node_modules/
+_IGNORE_BarBar/
+_IGNORE_COVID_HELPER/
+.node-persist/
+config.json
+COVID_HELPER.data.json
