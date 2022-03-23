@@ -27,7 +27,7 @@ function start(client) {
     }
   });
 
-  client.onMessage(async (message) => {
+  client.onAnyMessage(async (message) => {
     client.getAmountOfLoadedMessages().then((msg) => {
       if (msg > 1500) {
         client.cutMsgCache();
